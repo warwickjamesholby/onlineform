@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Online Forms</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+h1 { color: #333; }
+.content { max-width: 600px; margin: auto; padding: 20px; background-color: #fff; border-radius: 8px; }
+label { display: block; margin-top: 15px; }
+input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+button { margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background-color: #45a049; }
+</style>
+</head>
+<body>
+
+<div class="content">
+<h1>Learn How to Fill In Online Forms</h1>
+
+<p>Online forms help you share your information safely. Here’s a simple practice form:</p>
+
+<form>
+<label for="name">Your Name:</label>
+<input type="text" id="name" placeholder="Type your name here">
+
+<label for="email">Your Email:</label>
+<input type="email" id="email" placeholder="Type your email address">
+
+<label for="dob">Your Date of Birth:</label>
+<input type="date" id="dob">
+
+<label for="feedback">Tell us how you're feeling today:</label>
+<textarea id="feedback" placeholder="Write your answer here..."></textarea>
+
+<label for="colour">Pick your favourite colour:</label>
+<select id="colour">
+<option value="">Please choose...</option>
+<option value="red">Red</option>
+<option value="blue">Blue</option>
+<option value="green">Green</option>
+</select>
+
+<button type="submit">Submit Practice Form</button>
+</form>
+
+<p><strong>Tip:</strong> Take your time and check your answers before clicking "Submit."</p>
+</div>
+
+</body>
+</html>
